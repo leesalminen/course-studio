@@ -4,6 +4,11 @@
   "repository": "https://github.com/leesalminen/course-studio",
   "files": [
     {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1021,
+      "sha256": "a77b97e55e0507fd560e8a9d97c167a798939d9221da83a0d502b0829ad15452"
+    },
+    {
       "path": ".github/workflows/validate.yml",
       "bytes": 294,
       "sha256": "8edcab2402fc3efd757c1d2a3e8483116846080b45be5edb11ffe3de617af715"
@@ -25,8 +30,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7330,
-      "sha256": "9fa91d29c70d5f10c3ac6be6ef5f5815036ed1981992fc52e0b0f3aa06bf9b57"
+      "bytes": 7485,
+      "sha256": "50404862b3fb91c96d2b6f7d66b0e2d27d45ce6753590a242ce12a5de08c109a"
     },
     {
       "path": "START-HERE.md",
@@ -60,8 +65,8 @@
     },
     {
       "path": "docs/MAINTAINING.md",
-      "bytes": 3625,
-      "sha256": "ab4028d5892f9cd5be719c66c82e23dd9b0415970b309ebf3962aba30305aa81"
+      "bytes": 4634,
+      "sha256": "91ffbf69171b4161289eb1e912343a02b1e9012fb3d6a73a779455631240f78d"
     },
     {
       "path": "docs/PLATFORM-NOTES.md",
@@ -115,8 +120,8 @@
     },
     {
       "path": "scripts/package.py",
-      "bytes": 7308,
-      "sha256": "d6057ebe941d6723d9c3641806360a866fb05900e7ff4749c73e18c1e67ae8e6"
+      "bytes": 7319,
+      "sha256": "1ec7ef14900c57dca2249940f3e614e1a1d389b6e888b2af98273d405decec90"
     },
     {
       "path": "skills/course-studio/SKILL.md",
@@ -157,6 +162,51 @@
       "path": "validation/scenarios.md",
       "bytes": 3349,
       "sha256": "d9f199e720802c25a7e97491067b29b79bb81736afcf8b51795f41b06d8bc18d"
+    },
+    {
+      "path": "website/assets/dm-sans-400.ttf",
+      "bytes": 48280,
+      "sha256": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9"
+    },
+    {
+      "path": "website/assets/dm-sans-600.ttf",
+      "bytes": 48280,
+      "sha256": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a"
+    },
+    {
+      "path": "website/assets/dmsans-OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "website/assets/favicon.svg",
+      "bytes": 286,
+      "sha256": "1ce29ca1fc3dad475b97a1f1254c56bda2121c3615484a9328b2fa1b1d682975"
+    },
+    {
+      "path": "website/assets/fraunces-400.ttf",
+      "bytes": 71580,
+      "sha256": "3eb6cf0a14feb1876cc464fa093af4e0c5b05dc46dec65619c1d95f2a1ab5aa7"
+    },
+    {
+      "path": "website/assets/fraunces-OFL.txt",
+      "bytes": 4391,
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "path": "website/index.html",
+      "bytes": 9013,
+      "sha256": "75909d8f0a1fe4db1c592fa6ee5a5b01c82fd95cf9190ba2d7104550672b802b"
+    },
+    {
+      "path": "website/script.js",
+      "bytes": 604,
+      "sha256": "1d64c96089d409787532aebc056aeb4a88a61f06504c0e65fad65265f83147d4"
+    },
+    {
+      "path": "website/styles.css",
+      "bytes": 9579,
+      "sha256": "8dd984708aae9853d92026d1db086ba581bca6c8424d6ca1412261bed84a7b24"
     }
   ]
 }

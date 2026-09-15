@@ -21,7 +21,7 @@ ARCHIVE = "Course-Studio-Starter-Kit.zip"
 REFERENCES = ["interview.md", "course-design.md", "production.md"]
 GENERATED = {HANDBOOK, BOOTSTRAP, "manifest.json", ARCHIVE}
 TOP_FILES = ["README.md", "START-HERE.md", "AGENTS.md", "LICENSE", ".gitignore"]
-PUBLIC_DIRS = ["skills", "chatgpt", "docs", "examples", "output/pdf", "validation", "scripts", ".github"]
+PUBLIC_DIRS = ["skills", "chatgpt", "docs", "examples", "output/pdf", "validation", "scripts", ".github", "website"]
 LINK = re.compile(r"\[[^\]\n]*\]\(([^)\n]+)\)")
 
 

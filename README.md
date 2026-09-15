@@ -2,6 +2,8 @@
 
 ### Turn a child's curiosity into a course your family can use.
 
+**[Visit the Course Studio website](https://leesalminen.github.io/course-studio/)** for a quick introduction, sample materials, and the starting message.
+
 Design a personalized course with ChatGPT Work: a few weeks of fashion design, space exploration, architecture, wildlife mysteries, game design, or whatever has captured your child's attention.
 
 Course Studio interviews the parent, helps shape the course, and creates the actual teaching materials. Every complete course includes **printable PDFs and a parent/teacher guide with answers**. Designed mainly for ages **9–15**, with learning readiness and family circumstances shaping the details.
