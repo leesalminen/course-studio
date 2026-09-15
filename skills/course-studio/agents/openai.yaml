@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course Studio"
+  short_description: "Personalized courses and printable teaching packs"
+  default_prompt: "Use $course-studio to interview me and create a personalized course with printable materials and a parent/teacher guide."

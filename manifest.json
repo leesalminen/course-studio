@@ -1,0 +1,162 @@
+{
+  "name": "Course Studio",
+  "version": "1.0.0",
+  "repository": "https://github.com/leesalminen/course-studio",
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 294,
+      "sha256": "8edcab2402fc3efd757c1d2a3e8483116846080b45be5edb11ffe3de617af715"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 138,
+      "sha256": "66b50bd2809766682592d9fe0261600521a39a60285dfa119164833712c91283"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1474,
+      "sha256": "9704b27c600d7f5ddbb4017c461c8272075b4fc0fa1b3bf86f9d0067d164d6aa"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "sha256": "ac456f2d0b0390ada844866e84ca0cb752cdea590ff5c56167fa6297f55cca7e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7330,
+      "sha256": "9fa91d29c70d5f10c3ac6be6ef5f5815036ed1981992fc52e0b0f3aa06bf9b57"
+    },
+    {
+      "path": "START-HERE.md",
+      "bytes": 1221,
+      "sha256": "bf5140120d5fca380652223ce99c47ccddc1f62e39ebe78b62055df5fd138b05"
+    },
+    {
+      "path": "chatgpt/COURSE-STUDIO-HANDBOOK.md",
+      "bytes": 17498,
+      "sha256": "d699cb34c1d82ea77e84e655242bb767a11c0d6d4d1c5a4d7b390d6f591b5e9e"
+    },
+    {
+      "path": "chatgpt/COURSE-STUDIO-PROMPT.md",
+      "bytes": 8003,
+      "sha256": "f5138f9e6f135b54f7aa8b2f5ab74b2c7a3900519867dcd7c1f2f4d10ef8bf6e"
+    },
+    {
+      "path": "chatgpt/START-COURSE-STUDIO.md",
+      "bytes": 33857,
+      "sha256": "be2a2d43e923b241941a5acea0416de623c853c8b19c0845fac0969201a98347"
+    },
+    {
+      "path": "docs/CHATGPT-WORK-SETUP.md",
+      "bytes": 7186,
+      "sha256": "b6f87a09f0922cf59d866465e5e1de710389f0a799ac09a042d775252a3b0b7b"
+    },
+    {
+      "path": "docs/FAQ.md",
+      "bytes": 3364,
+      "sha256": "62e24fdb6d71dfcad5bbbe9b3a92cdfda29c14f4ba48f3d624a6fe3092a0cb46"
+    },
+    {
+      "path": "docs/MAINTAINING.md",
+      "bytes": 3625,
+      "sha256": "ab4028d5892f9cd5be719c66c82e23dd9b0415970b309ebf3962aba30305aa81"
+    },
+    {
+      "path": "docs/PLATFORM-NOTES.md",
+      "bytes": 2037,
+      "sha256": "1efb395ae0c0d79d2dc8acabec1cb2a7d945c7e316ee1f9b4c4c60c5648fb523"
+    },
+    {
+      "path": "examples/pocket-lab/course-brief.md",
+      "bytes": 3452,
+      "sha256": "21eb1b9454886f76472581b1b8309d0c5ab8b5aef52c42c4ca848790f4f57483"
+    },
+    {
+      "path": "examples/pocket-lab/materials-source.md",
+      "bytes": 17918,
+      "sha256": "966d6f9b7bee40c557d82c7294cf91b13bfa12c45298788f9467beb563bf22ee"
+    },
+    {
+      "path": "examples/pocket-lab/pocket-template.svg",
+      "bytes": 763,
+      "sha256": "95a5cda4ef7bd5916f774b37188862f084e61c7eec5f587822b3c8f98a2fec3e"
+    },
+    {
+      "path": "examples/pocket-lab/reading.md",
+      "bytes": 3898,
+      "sha256": "f05064a9b9bab7d95a1930e3f51427fc3cb060a80625f844c146855273a8ef34"
+    },
+    {
+      "path": "output/pdf/Course-Studio-Start-Here.pdf",
+      "bytes": 50072,
+      "sha256": "edb248ccd22e824081268a654c88dc301bed7c7e2ff42f178717de2056ee4fcd"
+    },
+    {
+      "path": "output/pdf/Pocket-Lab-Learner.pdf",
+      "bytes": 57262,
+      "sha256": "8d8624f75e28d4b74d212822e511bdd4349a612d3acfc79f8fed1509ae2e2689"
+    },
+    {
+      "path": "output/pdf/Pocket-Lab-Parent-Teacher-Guide.pdf",
+      "bytes": 54239,
+      "sha256": "31571a71c1c7e12eaf2ae52bd2fbf6228c9645bc48568b90c0ed7802528d2f7d"
+    },
+    {
+      "path": "output/pdf/manifest.json",
+      "bytes": 449,
+      "sha256": "d372bbdd538dd36f8309ffb27f00b2385ceddee6d1791e05e35e20478fecfe58"
+    },
+    {
+      "path": "scripts/build_sample.py",
+      "bytes": 31979,
+      "sha256": "3d1659e720bcef8256ef47e252b412bd155ad3fbf190f89547d56b842ec3dbe7"
+    },
+    {
+      "path": "scripts/package.py",
+      "bytes": 7308,
+      "sha256": "d6057ebe941d6723d9c3641806360a866fb05900e7ff4749c73e18c1e67ae8e6"
+    },
+    {
+      "path": "skills/course-studio/SKILL.md",
+      "bytes": 6642,
+      "sha256": "0a4b65c1269dc106c3bdb94d265cf0dfdd043b0e0e3a35522e2a2e8ee346db5b"
+    },
+    {
+      "path": "skills/course-studio/agents/openai.yaml",
+      "bytes": 257,
+      "sha256": "6d6ab1f8813bae095966d31c1fdcdd161c5145a1afc8f28d93733b91b1e474c0"
+    },
+    {
+      "path": "skills/course-studio/references/course-design.md",
+      "bytes": 6347,
+      "sha256": "d726d7458c5d81755865a251dc6798fc61a3604a7f0d383531eb52e49de47b8e"
+    },
+    {
+      "path": "skills/course-studio/references/interview.md",
+      "bytes": 5033,
+      "sha256": "d76cd9f90657d89b136a2355b1180945b5075056c525d45dd4d014b348c2e41a"
+    },
+    {
+      "path": "skills/course-studio/references/production.md",
+      "bytes": 6018,
+      "sha256": "3afc0e8a01cadb2ce63ad62ac5d46c5f81443bb30decf11f61a8b6c54515c9cc"
+    },
+    {
+      "path": "validation/pdf-checks.json",
+      "bytes": 442,
+      "sha256": "43036424856a5ae6bfe53e64879817b7b30c8cca7bda8e7e8ce29ef6951ea74a"
+    },
+    {
+      "path": "validation/quality-check.md",
+      "bytes": 4699,
+      "sha256": "14f0de7bd6f7ddecd0c59e018a6afec3ca43702830fceef32c08fc917ee8ed97"
+    },
+    {
+      "path": "validation/scenarios.md",
+      "bytes": 3349,
+      "sha256": "d9f199e720802c25a7e97491067b29b79bb81736afcf8b51795f41b06d8bc18d"
+    }
+  ]
+}

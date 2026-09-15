@@ -1,0 +1,16 @@
+name: Validate starter kit
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  distribution:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Check generated files and documentation links
+        run: python3 scripts/package.py --check

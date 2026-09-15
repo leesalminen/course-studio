@@ -1,0 +1,20 @@
+{
+  "Pocket-Lab-Learner.pdf": {
+    "pages": 8,
+    "page_size": "Letter",
+    "text_extraction": "pass",
+    "text_within_page": "pass"
+  },
+  "Pocket-Lab-Parent-Teacher-Guide.pdf": {
+    "pages": 5,
+    "page_size": "Letter",
+    "text_extraction": "pass",
+    "text_within_page": "pass"
+  },
+  "Course-Studio-Start-Here.pdf": {
+    "pages": 3,
+    "page_size": "Letter",
+    "text_extraction": "pass",
+    "text_within_page": "pass"
+  }
+}

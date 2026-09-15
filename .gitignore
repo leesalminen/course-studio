@@ -1,0 +1,11 @@
+# Local builds and private family courses
+tmp/
+courses/
+.course-studio/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example

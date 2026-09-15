@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "artifacts": [
+    {
+      "filename": "Pocket-Lab-Learner.pdf",
+      "pages": 8,
+      "paper": "US Letter",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "Pocket-Lab-Parent-Teacher-Guide.pdf",
+      "pages": 5,
+      "paper": "US Letter",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "Course-Studio-Start-Here.pdf",
+      "pages": 3,
+      "paper": "US Letter",
+      "version": "1.0.0"
+    }
+  ]
+}
