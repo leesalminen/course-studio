@@ -2,7 +2,22 @@
 
 ### Turn a child's curiosity into a course your family can use.
 
-**[Visit the Course Studio website](https://leesalminen.github.io/course-studio/)** for a quick introduction, sample materials, and the starting message.
+**[Visit Course Studio](https://school.vibecode.casa/)** to make a personalized brief, explore sample materials, or take your brief into ChatGPT.
+
+## Run the course app
+
+The free, open-source local app lets parents **continue with ChatGPT** and use their eligible ChatGPT plan to make a course from our UI. It creates a real preview, complete text-based lessons, printable learner PDFs, and a separate parent guide with answers. Writing can pause and resume. Exports are AI-written drafts for adult review.
+
+With Node.js 22.12 or newer, download the starter kit or clone this repository, then run:
+
+```sh
+npm ci
+npm start
+```
+
+Open `http://127.0.0.1:1455`. No API key is needed. Eligible plan access and models are controlled by OpenAI. Credentials stay on your computer; requested course context goes to OpenAI. [App setup, privacy, capabilities, and hosting](docs/COURSE-APP.md).
+
+The public website builds a brief; direct hosted generation is awaiting OpenAI access. The public Sign in with ChatGPT integration currently supports locally running apps. [Official integration guide](https://developers.openai.com/cookbook/articles/sign-in-with-chatgpt).
 
 Design a personalized course with ChatGPT Work: a few weeks of fashion design, space exploration, architecture, wildlife mysteries, game design, or whatever has captured your child's attention.
 

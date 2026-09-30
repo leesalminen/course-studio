@@ -13,15 +13,15 @@ import zipfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 REPO = "https://github.com/leesalminen/course-studio"
 HANDBOOK = "chatgpt/COURSE-STUDIO-HANDBOOK.md"
 BOOTSTRAP = "chatgpt/START-COURSE-STUDIO.md"
 ARCHIVE = "Course-Studio-Starter-Kit.zip"
-REFERENCES = ["interview.md", "course-design.md", "production.md"]
+REFERENCES = ["interview.md", "course-design.md", "production.md", "app-workflow.md"]
 GENERATED = {HANDBOOK, BOOTSTRAP, "manifest.json", ARCHIVE}
-TOP_FILES = ["README.md", "START-HERE.md", "AGENTS.md", "LICENSE", ".gitignore"]
-PUBLIC_DIRS = ["skills", "chatgpt", "docs", "examples", "output/pdf", "validation", "scripts", ".github", "website"]
+TOP_FILES = ["README.md", "START-HERE.md", "AGENTS.md", "LICENSE", ".gitignore", "package.json", "package-lock.json", "wrangler.jsonc"]
+PUBLIC_DIRS = ["skills", "chatgpt", "docs", "examples", "output/pdf", "validation", "scripts", ".github", "website", "app"]
 LINK = re.compile(r"\[[^\]\n]*\]\(([^)\n]+)\)")
 
 
@@ -59,7 +59,7 @@ def absolute_links(text: str, source: str) -> str:
 
 def make_generated(files: dict[str, bytes]) -> dict[str, bytes]:
     ref_paths = [f"skills/course-studio/references/{name}" for name in REFERENCES]
-    handbook = "# Course Studio handbook\n\nReference edition 1.0.0. Use with COURSE-STUDIO-PROMPT.md.\n\n"
+    handbook = f"# Course Studio handbook\n\nReference edition {VERSION}. Use with COURSE-STUDIO-PROMPT.md.\n\n"
     handbook += "\n\n---\n\n".join(absolute_links(read(path), path) for path in ref_paths)
     bootstrap = f"""# Start Course Studio
 

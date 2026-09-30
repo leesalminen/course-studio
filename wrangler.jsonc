@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "course-studio-school",
+  "account_id": "196621e3ab95c900c971faf582210461",
+  "compatibility_date": "2026-09-30",
+  "assets": { "directory": "./dist/site", "not_found_handling": "404-page" },
+  "routes": [{ "pattern": "school.vibecode.casa", "custom_domain": true }],
+  "workers_dev": false
+}
