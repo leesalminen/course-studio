@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3e9">
+  <meta name="description" content="Make a personalized course around your child's curiosity. A short brief, a thoughtful plan, and learning you can hold.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="studio.css">
+  <script src="studio.js" type="module"></script>
+  <title>Your course desk — Course Studio</title>
+</head>
+<body>
+  <a class="skip-link" href="#desk">Skip to your course</a>
+  <header class="site-header wrap"><a class="wordmark" href="index.html">Course Studio</a><nav aria-label="Main navigation"><a href="index.html#example">See a sample ↗</a><a href="https://github.com/leesalminen/course-studio">Open source ↗</a></nav></header>
+  <main class="wrap" id="desk">
+    <div class="desk-intro"><p class="eyebrow">A little structure. A lot of possibility.</p><h1>Let’s follow that <em>curiosity.</em></h1><p>A course shaped around them. A rhythm that works for you.</p></div>
+    <ol class="desk-progress" aria-label="Course steps"><li><button type="button" data-step="1" aria-current="step"><span>01</span> Their interests</button></li><li><button type="button" data-step="2" disabled><span>02</span> Your rhythm</button></li><li><button type="button" data-step="3" disabled><span>03</span> The course idea</button></li><li><span><span>04</span> Your materials</span></li></ol>
+    <div class="course-desk">
+      <div class="desk-worksheet">
+        <noscript><p>This course workspace needs JavaScript. You can use the <a href="downloads/START-COURSE-STUDIO.md">single-file setup document</a> in ChatGPT instead.</p></noscript>
+        <form id="brief-form">
+          <section data-panel="1" aria-labelledby="learner-title">
+            <h2 id="learner-title" tabindex="-1">Start with what they love.</h2>
+            <div class="field"><label for="interest">What can’t they stop talking about?</label><input id="interest" name="interest" maxlength="240" required placeholder="Sharks, sneaker design, building a tiny city…"><p>One interest is enough. A wonderfully specific obsession is welcome.</p></div>
+            <div class="field"><label for="age">How old are they?</label><input id="age" name="age" type="number" value="11" min="5" max="18" required><p>Most courses fit ages 9–15. We’ll start from their skills, too.</p></div>
+            <div class="field"><label for="readiness">What feels easy, and what feels tricky?</label><textarea id="readiness" name="readiness" maxlength="1200" required placeholder="Loves building and reads chapter books. Fractions need practice. Short writing works best."></textarea><p>Strengths, sticking points, and helpful supports. No names or diagnoses needed.</p></div>
+            <button type="button" class="button" id="next">Next: your family’s rhythm ↗</button>
+          </section>
+          <section data-panel="2" hidden aria-labelledby="rhythm-title">
+            <h2 id="rhythm-title" tabindex="-1">Make room for discovery.</h2>
+            <div class="field"><label for="weeks">How many weeks?</label><select id="weeks" name="weeks"><option value="1">1 week — a small adventure</option><option value="2">2 weeks</option><option value="3">3 weeks</option><option value="4" selected>4 weeks — time to explore</option><option value="5">5 weeks</option><option value="6">6 weeks</option></select></div>
+            <div class="field field-pair"><div><label for="sessions">Sessions each week</label><select id="sessions" name="sessions"><option value="1">1 session</option><option value="2" selected>2 sessions</option><option value="3">3 sessions</option></select></div><div><label for="minutes">Minutes each session</label><select id="minutes" name="minutes"><option value="20">20 minutes</option><option value="30">30 minutes</option><option value="40" selected>40 minutes</option><option value="60">60 minutes</option><option value="90">90 minutes</option></select></div></div>
+            <div class="field"><label for="supplies">What’s easy to find at home?</label><textarea id="supplies" name="supplies" maxlength="1200" required>Paper, pencils, cardboard, scissors, and tape. Keep adult preparation light. No special purchases.</textarea><p>Include supply limits or adult supervision needs.</p></div>
+            <div class="field field-pair"><div><label for="language">Course language</label><select id="language" name="language"><option>English</option><option>Spanish</option></select></div><div><label for="paper">Paper size</label><select id="paper" name="paper"><option>A4</option><option>Letter</option></select></div></div>
+            <button type="submit" class="button">See the next step ↗</button>
+          </section>
+        </form>
+        <section data-panel="3" hidden aria-labelledby="idea-title">
+          <h2 id="idea-title" tabindex="-1">A good idea starts here.</h2>
+          <div id="hosted-path" hidden>
+            <p>Your brief is ready. Take it into ChatGPT Work to shape the idea and make the teaching materials.</p>
+            <p class="runtime-note">Direct course creation with your ChatGPT plan currently runs in the local Course Studio app. Hosted sign-in is awaiting OpenAI access.</p>
+            <label class="message-label" for="personal-message">Your personalized starting message</label><textarea id="personal-message" readonly rows="10"></textarea>
+            <div class="prompt-actions"><button class="button" id="copy-brief" type="button">Copy your message ↗</button><a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Open ChatGPT ↗</a></div>
+            <details class="local-help"><summary>Use your ChatGPT plan in the local app</summary><p>Course Studio is free. Eligible ChatGPT Plus and Pro users can connect their existing plan. Sign-in and course creation run on your computer; credentials stay in protected local files.</p><p><a href="downloads/Course-Studio-Starter-Kit.zip" download>Download the app and starter kit ↗</a></p><p>Install Node.js 22.12 or newer, unzip the kit, and open its README for the two setup steps. You can also save your brief below and open it in the local workspace.</p></details>
+          </div>
+          <div id="local-path" hidden>
+            <div class="account-area"><p class="eyebrow">Your ChatGPT connection</p><p id="account-status">Connect your account to shape the course.</p><button id="connect" type="button" class="chatgpt-button">Continue with ChatGPT</button><div id="account-actions" hidden><label for="profiles">ChatGPT account / workspace</label><select id="profiles"></select><div class="account-links"><button type="button" id="add-account">Add account</button><button type="button" id="signout">Sign out</button><a href="https://chatgpt.com/settings/usage" target="_blank" rel="noopener noreferrer">Manage usage ↗</a></div></div><p class="small-note">Course Studio is free. Eligible requests use your ChatGPT plan or available credits. Your password stays with OpenAI.</p></div>
+            <div id="model-area" hidden><label for="model">Choose your model</label><select id="model"></select><p class="small-note">Using ChatGPT plan · <a href="https://chatgpt.com/settings/usage" target="_blank" rel="noopener noreferrer">Manage usage ↗</a></p></div>
+            <button id="preview-button" class="button" type="button" disabled>Shape the course idea ↗</button>
+          </div>
+          <div id="preview" hidden></div>
+          <div id="preview-actions" hidden><button type="button" class="button" id="build">Make the teaching materials ↗</button><p class="small-note" id="request-count"></p><button type="button" class="text-button" id="refine">Adjust the brief and try another idea</button></div>
+          <section id="build-area" hidden aria-labelledby="materials-title"><h3 id="materials-title">Learning you can hold.</h3><p id="build-status" role="status" aria-live="polite"></p><progress id="build-progress" value="0" max="1" aria-label="Lessons written"></progress><div class="account-links"><button type="button" id="pause" hidden>Pause and save</button><button type="button" id="resume" hidden>Resume the materials</button></div><div id="files" class="sample-links"></div><p class="runtime-note" id="review-note" hidden>These are AI-written drafts. Review the teaching, answers, and PDF pages before printing. The app checks coverage and timing; factual accuracy and learner fit still need your review.</p></section>
+        </section>
+        <div class="desk-status"><p id="status" role="status" aria-live="polite"></p><a id="usage-error" href="https://chatgpt.com/settings/usage" class="button" hidden target="_blank" rel="noopener noreferrer">Manage ChatGPT usage ↗</a></div>
+        <div class="brief-tools"><button type="button" class="text-button" id="download-brief">Save the brief</button><label class="text-button import-label" for="import-brief">Open a saved brief<input id="import-brief" type="file" accept="application/json,.json" class="sr-only"></label><button type="button" class="text-button" id="clear-brief">Clear the brief</button></div>
+        <p class="privacy-note" id="privacy">Your brief stays in this browser tab until you continue. Closing the tab clears the draft. You can save a copy. No child account needed.</p>
+      </div>
+      <aside class="desk-book" aria-label="Your course at a glance"><div class="course-cover"><div class="cover-top"><span>COURSE STUDIO</span><span id="cover-age">Age 11</span></div><p class="cover-kicker">Their next adventure</p><h2 id="cover-title">Something<br>wonderful<br>to learn.</h2><svg class="cover-illustration" viewBox="0 0 240 150" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 114 102 94l111 22-82 20Z M22 102l80-22 111 23-82 22Z M22 90l80-22 111 22-82 23Z"/><path d="m102 68 29 45m-68-33 38 8m-26-12 38 8"/><path d="M166 31v27m-13-13h26m-21-10 17 20m-17 0 17-20" stroke="#a54d31"/><path d="m45 41 9-17 9 17-9 17Z"/><circle cx="125" cy="27" r="6"/></g></svg><div class="cover-bottom"><span>IMAGINE. MAKE. TRY AGAIN.</span><span>↗</span></div></div><div class="desk-summary"><p id="cover-rhythm">4 weeks · 2 sessions a week</p><p>Hands-on learning.<br>Printable materials.<br>A guide for you.</p><span class="small-note">Made around your family.</span></div></aside>
+    </div>
+  </main>
+  <footer class="site-footer wrap"><p>An independent, free community project. Not affiliated with OpenAI.</p><a href="https://github.com/leesalminen/course-studio">Make it better with us ↗</a></footer>
+  <dialog id="welcome"><h2>You’re using your ChatGPT plan.</h2><p>Eligible requests in Course Studio use your ChatGPT plan or available credits. You can review usage and manage app access in ChatGPT settings.</p><p><a href="https://chatgpt.com/settings/usage" target="_blank" rel="noopener noreferrer">Manage usage ↗</a></p><button type="button" class="button" id="welcome-close">Got it</button></dialog>
+</body>
+</html>

@@ -1,6 +1,6 @@
 {
   "name": "Course Studio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "https://github.com/leesalminen/course-studio",
   "files": [
     {
@@ -10,13 +10,13 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "bytes": 294,
-      "sha256": "8edcab2402fc3efd757c1d2a3e8483116846080b45be5edb11ffe3de617af715"
+      "bytes": 436,
+      "sha256": "8ccf83ca6deebfbaf24dd6e7a87e53301b62037c300b427cd1c0a889eb524945"
     },
     {
       "path": ".gitignore",
-      "bytes": 138,
-      "sha256": "66b50bd2809766682592d9fe0261600521a39a60285dfa119164833712c91283"
+      "bytes": 169,
+      "sha256": "a31f26aa0303a082bfedbeb4a52f8e2f6d191ae3c48b957cff840ca3a17c19ab"
     },
     {
       "path": "AGENTS.md",
@@ -30,8 +30,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7485,
-      "sha256": "50404862b3fb91c96d2b6f7d66b0e2d27d45ce6753590a242ce12a5de08c109a"
+      "bytes": 8486,
+      "sha256": "d28c296531b7c1e6e04fdc76835acbb967536736e5a59c15974b7f21ffd8e5d4"
     },
     {
       "path": "START-HERE.md",
@@ -39,24 +39,74 @@
       "sha256": "bf5140120d5fca380652223ce99c47ccddc1f62e39ebe78b62055df5fd138b05"
     },
     {
+      "path": "app/auth.mjs",
+      "bytes": 9525,
+      "sha256": "4530cec37facfefc46c132f86ea43cffedf2dcc7e37581a26c9e27acc5806a83"
+    },
+    {
+      "path": "app/course.mjs",
+      "bytes": 3512,
+      "sha256": "7c2c0b1e8fa10047307670eb737b28fe09cff072187750ad6aa653b9d1885d7f"
+    },
+    {
+      "path": "app/inference.mjs",
+      "bytes": 3814,
+      "sha256": "dbbed6f3c1d6abdffdafcadfc37ab86c61dd89afaa8f0cfd5d11c9cd75f7b2c4"
+    },
+    {
+      "path": "app/jobs.mjs",
+      "bytes": 5202,
+      "sha256": "111796c993ecfd145797e8e3efc52e1841ac387c7e500481d924a91e5509c894"
+    },
+    {
+      "path": "app/publish.mjs",
+      "bytes": 11803,
+      "sha256": "333aac3851f56aaddf63da6a52941030819c60c9d92981ea1512257d48f2c163"
+    },
+    {
+      "path": "app/server.mjs",
+      "bytes": 11556,
+      "sha256": "979aa1fe6098784d45be458b05d695cd64eb3b2475b563590b4b561432a2535b"
+    },
+    {
+      "path": "app/storage.mjs",
+      "bytes": 972,
+      "sha256": "17fe48439b031a1297e26cb6788fa6f95bc6a2a4e050db4a37cbc14d5f3d79c4"
+    },
+    {
+      "path": "app/tests/contracts.test.mjs",
+      "bytes": 14600,
+      "sha256": "d9d6cf6fa345a1ee9d9a480ce0885c68a20aa939a9e7fdd5be0ac50b9dfe04fd"
+    },
+    {
+      "path": "app/tests/fixtures.mjs",
+      "bytes": 2904,
+      "sha256": "749bdca302023a38cdac38f63c6ae6a92ded62ea95de123853ffbc3cf9acc092"
+    },
+    {
       "path": "chatgpt/COURSE-STUDIO-HANDBOOK.md",
-      "bytes": 17498,
-      "sha256": "d699cb34c1d82ea77e84e655242bb767a11c0d6d4d1c5a4d7b390d6f591b5e9e"
+      "bytes": 21477,
+      "sha256": "e65d4d1dd9e261ebb69182983fe56a784b4a328ac98a9acb72e50b4ac568583d"
     },
     {
       "path": "chatgpt/COURSE-STUDIO-PROMPT.md",
-      "bytes": 8003,
-      "sha256": "f5138f9e6f135b54f7aa8b2f5ab74b2c7a3900519867dcd7c1f2f4d10ef8bf6e"
+      "bytes": 8023,
+      "sha256": "35a4d9188baa8b595383d1ad713090ff316837897253c77575789592fcaecb18"
     },
     {
       "path": "chatgpt/START-COURSE-STUDIO.md",
-      "bytes": 33857,
-      "sha256": "be2a2d43e923b241941a5acea0416de623c853c8b19c0845fac0969201a98347"
+      "bytes": 37856,
+      "sha256": "34f7e2ab280933d682c49c69f30d2684e8681f10b62087c3657777c0831c2ecb"
     },
     {
       "path": "docs/CHATGPT-WORK-SETUP.md",
       "bytes": 7186,
       "sha256": "b6f87a09f0922cf59d866465e5e1de710389f0a799ac09a042d775252a3b0b7b"
+    },
+    {
+      "path": "docs/COURSE-APP.md",
+      "bytes": 6002,
+      "sha256": "2c1dc0962e67c0816c5ac66175d084b5b9bb9e37d1a9b6b3feed6363e78e580d"
     },
     {
       "path": "docs/FAQ.md",
@@ -65,8 +115,8 @@
     },
     {
       "path": "docs/MAINTAINING.md",
-      "bytes": 4634,
-      "sha256": "91ffbf69171b4161289eb1e912343a02b1e9012fb3d6a73a779455631240f78d"
+      "bytes": 5149,
+      "sha256": "34e4172a13b673b3a883b75a559fae1b28d7017697de423d0eebc91d5c7108ea"
     },
     {
       "path": "docs/PLATFORM-NOTES.md",
@@ -114,24 +164,44 @@
       "sha256": "d372bbdd538dd36f8309ffb27f00b2385ceddee6d1791e05e35e20478fecfe58"
     },
     {
+      "path": "package-lock.json",
+      "bytes": 58733,
+      "sha256": "3df78d6928af80d348dc65a72fb69b4c20d87529cb0c4ff5d5a8e9a7e1f8fd42"
+    },
+    {
+      "path": "package.json",
+      "bytes": 520,
+      "sha256": "6f8bc5946fa810dbcb5ece9a76765289870b32fb9d80774149d43a08f0a9dcf8"
+    },
+    {
       "path": "scripts/build_sample.py",
       "bytes": 31979,
       "sha256": "3d1659e720bcef8256ef47e252b412bd155ad3fbf190f89547d56b842ec3dbe7"
     },
     {
+      "path": "scripts/build_site.py",
+      "bytes": 583,
+      "sha256": "73a3e8ac8a03c887bb803a2a5f2daaaba49937848279a1409e1a89935c25f102"
+    },
+    {
       "path": "scripts/package.py",
-      "bytes": 7319,
-      "sha256": "1ec7ef14900c57dca2249940f3e614e1a1d389b6e888b2af98273d405decec90"
+      "bytes": 7405,
+      "sha256": "a8aa0227841e4829a466489c4d0566d026e35b329346b86542792e4c907dc367"
     },
     {
       "path": "skills/course-studio/SKILL.md",
-      "bytes": 6642,
-      "sha256": "0a4b65c1269dc106c3bdb94d265cf0dfdd043b0e0e3a35522e2a2e8ee346db5b"
+      "bytes": 7085,
+      "sha256": "1fcab7bec2622d6f723244284a69496b44d115993278e02e85b8f9172ec8d63e"
     },
     {
       "path": "skills/course-studio/agents/openai.yaml",
       "bytes": 257,
       "sha256": "6d6ab1f8813bae095966d31c1fdcdd161c5145a1afc8f28d93733b91b1e474c0"
+    },
+    {
+      "path": "skills/course-studio/references/app-workflow.md",
+      "bytes": 3972,
+      "sha256": "8a518132c46158cd93432a17fbbd4519ce308c63993f68368d14f378a352a82f"
     },
     {
       "path": "skills/course-studio/references/course-design.md",
@@ -149,6 +219,11 @@
       "sha256": "3afc0e8a01cadb2ce63ad62ac5d46c5f81443bb30decf11f61a8b6c54515c9cc"
     },
     {
+      "path": "validation/course-app-checks.md",
+      "bytes": 2493,
+      "sha256": "1a2836549ba43325a7deffcbee6827570be2ed353cdf496344ff783bf297377d"
+    },
+    {
       "path": "validation/pdf-checks.json",
       "bytes": 442,
       "sha256": "43036424856a5ae6bfe53e64879817b7b30c8cca7bda8e7e8ce29ef6951ea74a"
@@ -162,6 +237,16 @@
       "path": "validation/scenarios.md",
       "bytes": 3349,
       "sha256": "d9f199e720802c25a7e97491067b29b79bb81736afcf8b51795f41b06d8bc18d"
+    },
+    {
+      "path": "website/404.html",
+      "bytes": 421,
+      "sha256": "8163ed288bfa8b54165b0a85bcfc96734a30a7e89196a7e57b7473893cddb06a"
+    },
+    {
+      "path": "website/_headers",
+      "bytes": 396,
+      "sha256": "090b6642478bae3bb57767932beda833b60c09557fc43906528d67b4dfbcd822"
     },
     {
       "path": "website/assets/dm-sans-400.ttf",
@@ -195,8 +280,13 @@
     },
     {
       "path": "website/index.html",
-      "bytes": 9013,
-      "sha256": "75909d8f0a1fe4db1c592fa6ee5a5b01c82fd95cf9190ba2d7104550672b802b"
+      "bytes": 9138,
+      "sha256": "e3c7dc957294c82b6827a9cb859843bdac3d31a51c6232851fcee39a9b51baa2"
+    },
+    {
+      "path": "website/runtime-config.json",
+      "bytes": 18,
+      "sha256": "d74bf3fb279215493866a7940a34925842ecd213e04b07678e5490c7f1f2b60f"
     },
     {
       "path": "website/script.js",
@@ -204,9 +294,29 @@
       "sha256": "1d64c96089d409787532aebc056aeb4a88a61f06504c0e65fad65265f83147d4"
     },
     {
+      "path": "website/studio.css",
+      "bytes": 6030,
+      "sha256": "c0f63f7d6c8710f7bec6326364540422a04d7c054b53b0457445614aa75de54f"
+    },
+    {
+      "path": "website/studio.html",
+      "bytes": 11161,
+      "sha256": "49c306406d52fe44d18d9f629edeb748cafa0a7e3a30c436af23a451adee11c7"
+    },
+    {
+      "path": "website/studio.js",
+      "bytes": 16036,
+      "sha256": "43d39c9976dc8a4c2fddb4f70c7dfaac51770f7dbaf0a009485f08dfbf0f1c55"
+    },
+    {
       "path": "website/styles.css",
       "bytes": 9579,
       "sha256": "8dd984708aae9853d92026d1db086ba581bca6c8424d6ca1412261bed84a7b24"
+    },
+    {
+      "path": "wrangler.jsonc",
+      "bytes": 362,
+      "sha256": "043729b815f10e97f316607f946d17be6e1336d68820f5007afcba1393523bd0"
     }
   ]
 }

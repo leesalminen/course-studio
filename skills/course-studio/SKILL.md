@@ -9,6 +9,7 @@ Turn a child's interest into a course a family can actually use. Work with the a
 
 ## Start in the right place
 
+- **Course Studio UI:** Reuse its supplied family brief; treat already answered fields as interview evidence. The parent operates sign-in and chooses when to spend their ChatGPT plan usage on a preview or teaching pack. Read [app-workflow.md](references/app-workflow.md) for local runtime capabilities, privacy, supported sign-in, and build-state rules. Do not request pasted tokens or claim hosted sign-in is enabled without verified access.
 - **New course, guided mode (default):** Read [interview.md](references/interview.md). Ask at most three short questions at a time, using information already supplied. Begin with the child's interest, age/readiness, and the family's desired experience. Offer “choose for me” and quick start. Do not administer the entire interview as a form.
 - **Quick start or “just build it”:** Use supplied details, infer low-risk defaults, state assumptions, and build. Do not impose approval rounds. Ask only about a missing fact that materially changes feasibility or safety.
 - **Existing course:** Inspect supplied materials before describing their strengths. Identify what to preserve and change. If unavailable, say so and work from the adult's description; never imply you have read another account's chat.
